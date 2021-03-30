@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+body{
+    margin-top: 5rem;
+    font-family: 'Fjalla One', sans-serif;
+    /* background-color: #262626; */
+}
+.navbar{
+    display:block;
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+    left: 0;
+    right: 0;
+}
+
+.title{
+    float: left;
+    width: 15%;
+    /* border: 4px dashed #bcbcbc; */
+}
+
+#title{
+    color: #0fffcd;
+    margin-left: 5rem;
+}
+
+.toolbar{
+    float:left;
+    width: 66%;
+    /* border: 4px dashed #bcbcbc; */
+    padding: 1.5rem;
+}
+
+#toolbar{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+a:link { color: #262626; text-decoration: none;}
+a:visited { color: #262626; text-decoration: none;}
+a:active { color: #0fffcd; text-decoration: none;}
+a:hover { color: #0fffcd; text-decoration: none;}
+
+.blank{
+    float: left;
+    width: 15%;
+    /* border: 4px dashed #bcbcbc; */
+}
+
+.section1{
+    width: 100%  
+}
+
+#image{
+    /* float:left; */
+    /* margin: 5rem auto auto auto; */
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../mainapp/home_fitness.jpg);
+    /* padding: 1.5rem; */
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.logo-wrap{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    max-width: 225px;
+
+}
+
+.logo-wrap h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10rem;
+    margin: 0;
+    line-height: 47px;
+    letter-spacing: 2px;
+  }
+
+.logo{
+    transform: translateX(-50%) rotate(-10deg);
+    display: block;
+    float: left;
+    left: 50%;
+    position: relative;
+}
+
+.logo span{
+    transform: skew(-10deg);   
+}
+
+.logo-wrap span {
+    display: block;
+    float: left;
+    text-shadow: 2px 2px 2px #0fffcd;
+    min-width: 10px;
+    min-height: 10px;
+    position: relative;
+}
+
+
+.title :nth-child(1){
+    color: #0fffcd;
+}

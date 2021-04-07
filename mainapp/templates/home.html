@@ -12,12 +12,12 @@
 <body>
     <div class = "navbar">
         <div class = "title">
-            <h1 id = "title">PoseFit</h1>
+            <h1 id = "title"><a href="#">PoseFit</a></h1>
         </div>
         <div class = "toolbar">
             <table id = "toolbar">
                 <td><a href="#PoseFit">PoseFit</a></td>
-                <td><a href="#START">START</a></td>
+                <td><a href="/category">START</a></td>
                 <td><a href="#Q&A">Q&A</a></td>
                 <td><a href="#RECRUIT">RECRUIT</a></td>
             </table>
@@ -25,24 +25,36 @@
         <div class = "blank"></div>
     </div>
 
-    <div class = "section1" >
+    <div class = "section0" id="section0">
         <div id="image">
         </div>
-        <div class = "logo-wrap">
+        <!-- <div class = "logo-wrap">
             <h1>
                 <span class = "logo">PoseFit</span>
             </h1>
-        </div>
+        </div> -->
     </div>
 
-    <div id = "section2" >
+    <div class = "section1" id="section1" >
         <a id="PoseFit" class="smooth"></a>
-        소개 페이지
-    </div>
-        
-    <div id="section3">
+        <div id="Introduce">
+            <span id = "main">PoseFit AI HOME FITNESS</span>
+            <br>
+            <span id = "sub">이용자의 관절 움직임을 추출하여<br> 실시간으로 올바른 운동자세를 취하도록 도와줍니다.</span>
+            <br>
+            <button id = "button" onclick = "location.href = '/category' ">시작하기</button>
+        </div>
+    </div>    
+    <div class="section2" id="section2">
         <a id="START" class="smooth"></a>
-        시작하기
+        <div class="box">
+            <div class="youtube-frame"></div>
+            <div class="youtube-gif"></div>
+        </div>
+        
+        <div class="posetraking">
+            <span id = "posetraking">AI 실시간 동작 분석으로 <br> 틀린 동작을 교정해보세요. </span>
+        </div>
     </div>
 
         

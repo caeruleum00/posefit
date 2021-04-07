@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+body{
+    /* margin: 0 3rem;
+    /* width: 100%;
+    height: 100%; */ 
+    background-color: whitesmoke;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.margin{
+    margin: 1.5rem 1.5rem;
+}
+
+.nav-wrapper{
+    display: inline-block;
+}
+
+.nav{
+    display: inline-block;
+    width: 15rem;
+    height: .3rem;
+    /* border: .2rem solid #0fffcd; */
+    /* background-color: #0fffcd; */
+    background-color: black;
+
+}
+/* a:link { color: #0fffcd; text-decoration: none;}
+a:visited { color: #0fffcd; text-decoration: none;}
+a:active { color: #0fffcd; text-decoration: none;}
+a:hover { color: #0fffcd; text-decoration: none;} */
+
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:active { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
+
+.blank{
+    float: left;
+    width: 15%;
+    /* border: 4px dashed #bcbcbc; */
+}
+
+
+.nav-title{
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+    /* color: #0fffcd; */
+    color: black;
+
+}
+
+.nav-home{
+    display: inline-block;
+    margin-top: .5rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    /* color: #0fffcd; */
+    color: black;
+    /* text-shadow: 1px 1px 1px #0fffcd; */
+
+}
+
+.category-wrapper{
+    margin-top: 1.5rem;
+}
+#category-title{
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.youtube{
+    margin-top: 1rem;
+}
+
+.video{
+    margin-right: 1rem;
+}
